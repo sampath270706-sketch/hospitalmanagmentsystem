@@ -1,5 +1,7 @@
 # Hospital Management System
 
+Source: [Deepak476P/Hospital-Management-System](https://github.com/Deepak476P/Hospital-Management-System). Original commits and contributors are retained in the Git history.
+
 A full-stack Hospital Management System developed using:
 
 * HTML
@@ -38,3 +40,7 @@ Backend:
 Database:
 
 * MySQL
+
+## Local configuration
+
+Copy `backend/.env.example` to `backend/.env`, then set your database password and a unique JWT secret. The `.env` file is ignored by Git.
